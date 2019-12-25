@@ -1,6 +1,6 @@
 # JS fields(textFields) validation
 
-Js fields validation is an example which validate form fields before submission.
+Js fields validation is an example which validates form fields before submission.
 
 It checks if the fields are not empty,
 matches the email and more
