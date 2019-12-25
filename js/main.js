@@ -17,15 +17,15 @@ function onsubmit(e){
     secondeTime(email);
 
     //check if the fields are not empty
-    if(document.querySelector("#name").value === '' || 
-        document.querySelector("#email").value === ''){
+    if((document.querySelector("#name").value).trim() === '' || 
+        (document.querySelector("#email").value).trim() === ''){
 
             //check if the name field is not empty
-        if(document.querySelector("#name").value === '')
+        if((document.querySelector("#name").value).trim() === '')
             document.querySelector("#name").classList.add("error-solid");
 
             // check if the email field is not empty
-        if(document.querySelector("#email").value === '')
+        if((document.querySelector("#email").value).trim() === '')
             document.querySelector("#email").classList.add("error-solid");
 
             /*
